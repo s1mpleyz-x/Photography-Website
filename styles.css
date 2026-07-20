@@ -27,8 +27,14 @@ body {
   height: 100%;
 }
 
+/* Headings & Paragraphs */
 p {
   font-family: var(--font-lexend);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-brico);
+  color: var(--websitecolor-purple);
 }
 
 h4 {
@@ -43,6 +49,7 @@ h4 {
   min-height: 100vh;
   padding-left: 25px;
   padding-right: 25px;
+  align-items: center;
 
   color: #ffffff;
   background-image: url(/images/background.png);
@@ -61,13 +68,6 @@ h4 {
 
   background-color: var(--websitecolor-purple);
   color: white;
-}
-
-/* Headings & Paragraphs */
-h1, h2, h3 {
-  font-family: var(--font-brico);
-  color: var(--websitecolor-purple);
-  margin-bottom: 10px;
 }
 
 .image_scaling {
