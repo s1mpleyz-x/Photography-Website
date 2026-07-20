@@ -130,7 +130,7 @@ h4 {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  height: 130px;
+  height: 90px;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 25px;
@@ -190,8 +190,8 @@ h4 {
 
 .footer_buttons {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns — change number as needed */
-  gap: 10px;
+  grid-template-columns: repeat(2, 1fr); /* 3 equal-width columns — change number as needed */
+  gap: 50px;
   flex: 1; /* let it take remaining space next to .main_footer, since parent .hero_footer is still flex */
 }
 
