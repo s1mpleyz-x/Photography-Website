@@ -40,6 +40,7 @@ h1, h2, h3 {
 h4 {
   font-family: var(--font-lexend);
   font-size: 20px;
+  line-height: 1.3;
 }
 
 /* DISPLAY & STYLING of the entire page */
@@ -71,7 +72,7 @@ h4 {
 }
 
 .image_scaling {
-  width: 40%;
+  width: 30%;
 }
 
 .section {
@@ -80,6 +81,7 @@ h4 {
   gap: 30px;
   padding: 30px;
   margin-bottom: 50px;
+  text-align: center;
 
   background-color: var(--websitecolor-white);
   font-family: var(--font-lexend);
