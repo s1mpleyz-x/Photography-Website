@@ -53,7 +53,8 @@ h4 {
   align-items: center;
 
   color: #ffffff;
-  background-image: url(/images/background.png);
+  background-image: url(https://i.redd.it/1920x1080-minimalist-wallpaper-collection-v0-xs5huy10hfk61.jpg?width=1920&format=pjpg&auto=webp&s=c97d0e57b4410f1b8932d8c988095bd1f4de3986);
+  /* A link to the wallpaper for the purpose of GitHub pages, since the original wallpaper is not hosted on GitHub. For local use, you may use the /images/background.png/ file path instead of the link */
 }
 
 .hero_header {
