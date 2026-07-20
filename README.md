@@ -9,7 +9,7 @@
 1. Clone the repository
 
 > [!WARNING]
-> Ensure to have the images in the correct path for display.
+> Ensure to have the background image in the correct path for display or it will not work.
 
 ## License
 [MIT License](https://github.com/twbs/bootstrap/blob/main/LICENSE)
