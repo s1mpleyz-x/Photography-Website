@@ -104,22 +104,12 @@ h4 {
   color: white;
 }
 
-/* DISPLAY & STYLING of the main header */
-.main_header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 18px;
+/* DISPLAY & STYLING of the hero header */
+.hero_title {
   text-align: center;
-
 
   font-family: var(--font-brico);
   font-size: 20px;
-}
-
-/* DISPLAY & STYLING of the main header elements */
-.hero_title {
-  text-decoration: none;
   color: white;
 }
 
@@ -131,77 +121,15 @@ h4 {
 /* DISPLAY & STYLING of the hero footer */
 .hero_footer {
   display: flex;
-  align-items: stretch;
   justify-content: space-between;
-  height: 90px;
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  align-items: center;
+  height: 30px;
+  padding: 25px;
   gap: 300px;
 
   background-color: var(--websitecolor-purple);
-  color: white;
-}
-
-/* DISPLAY & STYLING of the footer */
-.main_footer {
-  display: flex;
-  align-items: top;
-  justify-content: space-between;
-  gap: 18px;
-  text-align: center;
-  padding-top: 12px;
-
   font-family: var(--font-brico);
-  font-size: 25px;
-}
-
-/* ------------------------------------------ BUTTONS - HERO HEADER ------------------------------------------ */
-
-/* DISPLAY of the buttons in the hero header */
-.button_container {
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  gap: 10px;
-}
-
-/* DISPLAY & STYLING of the header buttons */
-.header_buttons {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 10px;
-  padding-right: 10px;
-  height: 97%;
-
-  text-decoration: none;
-  font-size: 18px;
-  font-family: var(--font-brico);
-  font-weight: bold;
   color: white;
-}
-
-/* STYLING of the buttons when hovered over by the cursor */
-.header_buttons:hover {
-  background-color: var(--hovercolor-purple);
-  transform: translateY(-1px)scale(1.05);
-}
-
-/* ------------------------------------------ BUTTONS - HERO FOOTER ------------------------------------------ */
-
-.footer_buttons {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 3 equal-width columns — change number as needed */
-  gap: 50px;
-  flex: 1; /* let it take remaining space next to .main_footer, since parent .hero_footer is still flex */
-}
-
-.footer_column {
-  display: flex;
-  flex-direction: column; /* stack heading + links vertically within each column */
-  gap: 8px;
 }
 
 .footer_heading {
@@ -209,17 +137,14 @@ h4 {
   font-weight: bold;
   font-size: 21px;
   color: white;
-  margin: 0 0 6px 0;
 }
 
-.footer_link {
+.footer_text {
   font-family: var(--font-lexend);
   font-size: 16px;
   color: white;
-  text-decoration: none;
-  margin: 0;
 }
 
-.footer_link:hover {
+.footer_text:hover {
   transform: translateY(-1px)scale(1.01);
 }
