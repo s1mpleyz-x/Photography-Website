@@ -1,5 +1,5 @@
 # Photography Website
-> Independent Project - Photography Website
+> Independent Project for Moringa School titled Photography Website. This is a site that displays my favourite photos and scenery.
 
 ## Technologies Used
 * `HTML`
