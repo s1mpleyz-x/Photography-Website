@@ -5,9 +5,6 @@
   --websitecolor-purple:                  #d038ff;
   --websitecolor-white:                   #ebeaea;
 
-  /* HOVER COLORS */
-  --hovercolor-purple:                    #b020e0;
-
   /* Website FONTS */
   --font-brico:  "Bricolage Grotesque", sans-serif;
   --font-lexend: "Lexend", sans-serif;
@@ -145,6 +142,6 @@ h4 {
   color: white;
 }
 
-.footer_text:hover {
+.footer_text:hover, .footer_heading:hover {
   transform: translateY(-1px)scale(1.01);
 }
