@@ -2,22 +2,23 @@
 /* Website STYLING stuff */
 :root {
   /* Website COLORS */
-  --websitecolor-orange:                  #f06018;
+  --websitecolor-purple:                  #d038ff;
   --websitecolor-white:                   #ebeaea;
 
   /* HOVER COLORS */
-  --hovercolor-orange:                    #e05916;
+  --hovercolor-purple:                    #b020e0;
 
   /* Website FONTS */
   --font-brico:  "Bricolage Grotesque", sans-serif;
   --font-lexend: "Lexend", sans-serif;
 }
 
+/* ============================= HOME PAGE (index.html) STYLING & DISPLAY ============================= */
 
 /* DISPLAY of the entire HTML page */
 /* 'margin' is interfering with the background display so it is not being tampered with, only padding */
 html {
-    height: 100%;
+  height: 100%;
   }
   
 body {
@@ -30,6 +31,11 @@ p {
   font-family: var(--font-lexend);
 }
 
+h4 {
+  font-family: var(--font-lexend);
+  font-size: 20px;
+}
+
 /* DISPLAY & STYLING of the entire page */
 .explore_page_box {
   display: flex;
@@ -39,36 +45,30 @@ p {
   padding-right: 25px;
 
   color: #ffffff;
-  background-image: url(/images/explore.png);
+  background-image: url(/images/background.png);
 }
 
-
-/* ============================= HOME PAGE (index.html) STYLING & DISPLAY ============================= */
-
-nav {
+.hero_header {
   font-family: var(--font-lexend );
   font-weight: bold;
-  background-color: var(--websitecolor-orange);
+  background-color: var(--websitecolor-purple);
 
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  height: 100px;
   padding-left: 25px;
   padding-right: 25px;
 
-  background-color: var(--websitecolor-orange);
+  background-color: var(--websitecolor-purple);
   color: white;
 }
 
 /* Headings & Paragraphs */
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: var(--font-brico);
-  color: var(--websitecolor-orange);
+  color: var(--websitecolor-purple);
   margin-bottom: 10px;
 }
-
-/* ============================= EXPLORE PAGE (explore.html) STYLING & DISPLAY ============================= */
 
 .image_scaling {
   width: 40%;
@@ -88,26 +88,17 @@ h1, h2, h3, h4 {
 }
 
 /* --------------------------------------- HERO HEADER - TOP HEADER --------------------------------------- */
-  
-/* DISPLAY & STYLING of ALL the elements in the hero header */
+  /* DISPLAY & STYLING of ALL the elements in the hero header */
 .hero_header {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
-  height: 100px;
   padding-left: 25px;
   padding-right: 25px;
+  height: 70px;
 
-  background-color: var(--websitecolor-orange);
+  background-color: var(--websitecolor-purple);
   color: white;
-}
-
-/* DISPLAY & STYLING of the website logo image */
-.website_logo {
-  position: relative;
-  width: 80px;
-  height: 80px;
-  border-radius: 50px;
 }
 
 /* DISPLAY & STYLING of the main header */
@@ -118,8 +109,9 @@ h1, h2, h3, h4 {
   gap: 18px;
   text-align: center;
 
+
   font-family: var(--font-brico);
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /* DISPLAY & STYLING of the main header elements */
@@ -128,7 +120,7 @@ h1, h2, h3, h4 {
   color: white;
 }
 
-.website_logo:hover, .hero_title:hover {
+.hero_title:hover {
   transform: translateY(-1px)scale(1.03);
 }
 
@@ -145,7 +137,7 @@ h1, h2, h3, h4 {
   padding-bottom: 25px;
   gap: 300px;
 
-  background-color: var(--websitecolor-orange);
+  background-color: var(--websitecolor-purple);
   color: white;
 }
 
@@ -190,7 +182,7 @@ h1, h2, h3, h4 {
 
 /* STYLING of the buttons when hovered over by the cursor */
 .header_buttons:hover {
-  background-color: var(--hovercolor-orange);
+  background-color: var(--hovercolor-purple);
   transform: translateY(-1px)scale(1.05);
 }
 
